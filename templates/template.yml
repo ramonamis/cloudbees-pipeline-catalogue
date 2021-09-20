@@ -1,0 +1,11 @@
+---
+version: 1
+type: pipeline-template
+
+name: AGCO Sample Pipeline
+description: Demo Pipeline. Builds a docker container with yamllint and lints the repo
+parameters:
+  - name: branch_name
+    type: string
+    displayName: Branch name (or commit id) used at build
+    defaultValue: main
