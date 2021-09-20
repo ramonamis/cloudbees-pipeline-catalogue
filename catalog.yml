@@ -1,0 +1,6 @@
+---
+version: 1
+type: pipeline-template-catalog
+
+name: AGCOSamplePipeline
+displayName: A sample pipeline to test the CloudBees Pipeline Template Catalogue in a workshop
